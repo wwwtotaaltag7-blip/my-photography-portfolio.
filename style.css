@@ -30,20 +30,20 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; /* مسافة أقل بين الصور لتغطية المساحة */
-    padding: 0; /* إزالة الحواف الجانبية */
+    gap: 15px;
+    padding: 0;
     width: 100%;
 }
 
 .gallery-item {
-    width: 100%; /* المربع يأخذ عرض الشاشة بالكامل */
+    width: 100%;
 }
 
 .gallery-item img {
-    width: 100%; /* الصورة تأخذ عرض المربع بالكامل */
+    width: 100%;
     height: auto;
-    border: 8px solid #c5a059; /* الإطار الذهبي */
-    box-sizing: border-box; /* لضمان عدم خروج الإطار عن الشاشة */
+    border: 8px solid #c5a059;
+    box-sizing: border-box;
     display: block;
 }
  
