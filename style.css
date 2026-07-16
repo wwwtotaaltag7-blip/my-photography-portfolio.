@@ -22,13 +22,20 @@ body {
     color: #cccccc !important;
 }
 
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+..gallery-container {
+    display: flex;
+    flex-direction: column; /* يجعل الصور تترتب عمودياً تحت بعض */
+    align-items: center;    /* لضبط الصور في المنتصف */
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 600px;       /* تحديد عرض مناسب للصور */
     margin: auto;
+}
+
+.gallery-item {
+    width: 100%;            /* عرض الصورة يأخذ كامل مساحة الحاوية */
+}
+ 
 }
 
 .gallery-item img {
