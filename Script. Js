@@ -10,3 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
         header.style.opacity = '1';
     }, 500);
 });
+
