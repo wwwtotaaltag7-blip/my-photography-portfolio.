@@ -1,17 +1,22 @@
+/* كود CSS للمظهر الأسود */
 body {
-    background-color: #f9f9f9 !important;
-    font-family: 'Tajwal', sans-serif !important;
-    color: #333 !important;
+    background-color: #000000 !important; /* خلفية سوداء */
+    color: #ffffff !important;           /* نص أبيض */
+    font-family: Arial, sans-serif !important;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 h2 {
+    color: #ffffff !important;           /* عنوان أبيض */
     font-weight: 700;
-    color: #222;
     margin-bottom: 10px;
-    text-align: center;
     margin-top: 50px;
+}
+
+p {
+    color: #cccccc !important;           /* نص فرعي رمادي فاتح */
 }
 
 .gallery-container {
@@ -28,11 +33,10 @@ h2 {
     height: 350px;
     object-fit: cover;
     border-radius: 15px;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 2px solid #333;              /* إطار خفيف للصور */
+    transition: transform 0.4s ease;
 }
 
 .gallery-item img:hover {
     transform: scale(1.03);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
